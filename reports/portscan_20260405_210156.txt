@@ -1,6 +1,0 @@
-Port Scan Report
-Target: 10.48.146.67
-
-Open Ports:
-- Port 22
-- Port 80
