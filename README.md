@@ -40,7 +40,6 @@ Python 3.x
 Linux / Kali Linux recommended
 
 ⚠️ Disclaimer
-
 This tool is for educational and ethical use only.
 Do not use it on systems without permission.
 
