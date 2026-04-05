@@ -1,0 +1,5 @@
+Advanced Web Scan Report
+Target: https://web.whatsapp.com/
+
+
+Forms found: 0

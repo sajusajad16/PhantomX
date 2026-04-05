@@ -1,0 +1,4 @@
+Web Scan Report
+Target: https://web.whatsapp.com/
+
+Status: 200

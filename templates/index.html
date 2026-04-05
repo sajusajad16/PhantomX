@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhantomX Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>💀 PhantomX Dashboard</h1>
+
+<div class="container">
+
+    <!-- 🚀 SCAN FORM -->
+    <h2>🚀 Run Scan</h2>
+
+    <form method="POST">
+        <input type="text" name="target" placeholder="Enter target (IP or URL)" required>
+
+        <select name="scan">
+            <option value="port">Port Scan</option>
+            <option value="web">Web Scan</option>
+        </select>
+
+        <button type="submit">Start Scan</button>
+    </form>
+
+    <!-- 📡 LIVE OUTPUT -->
+    <h2>📡 Live Output</h2>
+    <pre class="output-box">
+{{ output }}
+    </pre>
+
+    <!-- 📄 REPORTS -->
+    <h2>📄 Reports</h2>
+    <ul class="report-list">
+        {% for report in reports %}
+        <li>{{ report }}</li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+</body>
+</html>

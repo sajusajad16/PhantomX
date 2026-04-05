@@ -1,0 +1,5 @@
+Web Scan Report
+Target: https://web.whatsapp.com/
+
+Status Code: 200
+Missing X-Frame-Options
